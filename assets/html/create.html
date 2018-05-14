@@ -3,16 +3,33 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
+    <title>Create Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="login.css" />
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/login.css" />
     <!-- linking firebase -->
     <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
 </head>
+<body>
+        <header>
+                <nav class="nav-extended">
+                  <div class="nav-wrapper brown lighten-2">
+                    <a href="index.html" class="brand-logo"><img class="responsive-img" src="../images/logo.png"></a>
+                    <ul class="right hide-on-med-and-down top-nav">
+                      <li><a class="navLinks" href="assets/html/create.html">Sign Up</a></li>
+                      <li><a class="navLinks" href="assets/html/login.html">Log In</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav-content brown lighten-1">
+                    <span class="nav-title brown lighten-1">DogTown</span>
+                    <a class="btn-floating btn-large halfway-fab waves-effect waves-light green darken-2" href="index.html">Home</a>
+                  </div>
+                </nav>
+              </header>
 <!----login input-->
 <div class = "containter">
         <div class = "row">
@@ -55,6 +72,40 @@
             </form>
         </div>
     </div>
+
+    <footer class="page-footer brown lighten-2">
+            <div class="container brown lighten-1">
+              <div class="row">
+                <div class="col l3 s12 brown lighten-1">
+                  <h5 class="black-text">DogTown</h5>
+                </div>
+                <div class="col l3  s12 section1 footer-menu">
+                  <ul>
+                    <li><a class="black-text text-lighten-3" href="index.html">About Us</a></li>
+                    <li><a class="black-text text-lighten-3" href="assets/html/???.html">My Account</a></li>
+                    <li><a class="black-text text-lighten-3" href="assets/html/settings.html">Account Settings</a></li>
+                  </ul>
+                </div>
+                <div class="col l3  s12 section2 footer-menu">
+                  <ul>
+                    <li><a class="black-text text-lighten-3" href="assets/html/login.html">Login</a></li>
+                    <li><a class="black-text text-lighten-3" href="assets/html/create.html">Sign Up</a></li>
+                    <li><a class="black-text text-lighten-3" href="assets/html/???.html">Dog Search</a></li>
+                  </ul>
+                </div>
+                <div class="col l3  s12 section3 footer-menu">
+                  <ul>
+                    <li><a class="black-text text-lighten-3" href="http://rmpuppyrescue.org/!">Adopt a Dog!</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright grey-text brown">
+              <div class="container">
+                &copy 2018 DogTown Group, Inc.
+              </div>
+            </div>
+          </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
